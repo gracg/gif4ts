@@ -1,18 +1,30 @@
 .container {
+    background-color: #121212;
     width: 100%;
-    background-color: black;
+    background-color: transparent;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 1rem;
+
+
+    .gifCont {
+        width: min-content;
+        max-height: 10%;
+        flex-grow: 1;
+        flex-basis: 10%;
+        display: grid;
+        justify-content: center;
+
+
+        .gif {
+            background-color: #121212;
+            text-align: center;            
+            position: relative;
+            height: 100%;
+            width: min-content;
+            object-fit: cover;
+        }
+    }
 }
 
-.gifCont {
-    max-height: 20%;
-}
-
-.gifCont > * {
-    position: relative;
-    height: 100%;
-    width: min-content;
-    object-fit: cover;
-}
