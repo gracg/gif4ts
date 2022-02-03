@@ -1,1 +1,7 @@
 <p>maincomp works!</p>
+<div class="container">
+    <div class="gifCont" *ngFor="let gif of getTrendingGifs()">
+        <img class="gif" src="{{gif.images.original.url}}">
+    </div>
+
+</div>
