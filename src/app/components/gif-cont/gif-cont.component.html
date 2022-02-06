@@ -1,0 +1,12 @@
+<div class="gifCont">
+    <img  class="gif" src="{{getUrl()}}" (click)="goToPost()">
+
+    
+    <div class="bottom" *ngIf="getObj().user" (click)="goToProfile()">
+        <img id="user" src="{{getUserImage()}}">
+        <div class="name">
+            {{getObj().user.username}}
+        </div>
+    </div>
+
+</div>

@@ -1,7 +1,16 @@
 <app-topbar></app-topbar>
 <div class="container">
-    <div class="gifCont" *ngFor="let gif of getTrendingGifs()">
+    <!-- 
+   <div class="gifCont" *ngFor="let gif of getTrendingGifs()">
         <img class="gif" src="{{gif.images.original.url}}">
     </div>
+    -->
+
+
+    
+
+
+    <app-gif-cont class="gi" *ngFor="let g of getTrendingGifs()"  [gif]=g ></app-gif-cont>
+    
 
 </div>

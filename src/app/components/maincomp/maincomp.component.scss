@@ -9,22 +9,10 @@
 
 
     .gifCont {
-        width: min-content;
-        max-height: 10%;
-        flex-grow: 1;
-        flex-basis: 10%;
-        display: grid;
-        justify-content: center;
-
-
-        .gif {
-            background-color: #121212;
-            text-align: center;            
-            position: relative;
-            height: 100%;
-            width: min-content;
-            object-fit: cover;
-        }
+        flex-grow: 3;
+        flex-shrink: 3;
+        flex-wrap: wrap;
+        flex-basis: auto;
     }
 }
 

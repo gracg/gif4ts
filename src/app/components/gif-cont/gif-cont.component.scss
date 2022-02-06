@@ -1,0 +1,48 @@
+.gifCont {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0.3rem;
+    border: 0.3rem ;
+    border-radius: 30px;
+    background-color: #212425;
+    
+
+    .gif {
+        margin: 1rem 1rem;
+        background-color: #121212;
+        text-align: center;            
+        position: relative;
+        height: 100%;
+        width: min-content;
+        object-fit: cover;
+        max-width: 20rem;
+        max-height: 12rem;
+        cursor: pointer;
+    }
+
+    .bottom {
+        margin: 0rem 1rem;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 1rem;
+        cursor: pointer;
+
+        .name {
+            color: white;
+            padding-left: 1.5rem;
+            margin: auto;
+            margin-left: 0px;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+    }
+
+    .bottom img {
+        border-radius: 100px;
+        max-height: 3rem;
+        max-width: 3rem;
+    }
+
+}
