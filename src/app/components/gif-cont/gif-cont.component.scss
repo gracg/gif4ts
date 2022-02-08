@@ -15,7 +15,6 @@
         text-align: center;            
         position: relative;
         height: 100%;
-        width: min-content;
         object-fit: cover;
         max-width: 20rem;
         max-height: 12rem;
@@ -27,15 +26,17 @@
         display: flex;
         justify-content: flex-start;
         margin-bottom: 1rem;
+        align-items: center;
         cursor: pointer;
 
         .name {
             color: white;
             padding-left: 1.5rem;
-            margin: auto;
             margin-left: 0px;
-            margin-bottom: 1rem;
             font-weight: bold;
+            font-size: 1.5rem;
+            align-self: center;
+            vertical-align: middle;
         }
     }
 
